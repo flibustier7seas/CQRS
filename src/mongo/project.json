@@ -1,0 +1,18 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "mongo Class Library",
+  "authors": [ "flibustier@outlook.com" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "MongoDB.Driver": "2.2.3"
+      }
+    }
+  },
+  "dependencies": {
+    "Domain": "1.0.0-*"
+  }
+}

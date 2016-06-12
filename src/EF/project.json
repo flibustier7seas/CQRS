@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "EF Class Library",
+  "authors": [ "flibustier@outlook.com" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "Domain": "1.0.0-*",
+    "EntityFramework.Commands": "7.0.0-rc1-final",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
+  },
+  "commands": {
+    "ef": "EntityFramework.Commands"
+  }
+}

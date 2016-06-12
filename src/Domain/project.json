@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "description": "Domain Class Library",
+  "authors": [ "flibustier@outlook.com" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }    
+  },
+  "commands": {
+  },
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+    "System.Runtime": "4.0.21-beta-23516"
+  }
+}
+

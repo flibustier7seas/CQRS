@@ -1,0 +1,23 @@
+﻿<form role="form">
+    <fieldset>
+        <legend>Название типа продукта</legend>
+        <input autofocus class="form-control" ng-model="ctrl.productTypeName" />
+    </fieldset>
+    <fieldset>
+        <legend>Атрибуты</legend>
+        <div class="form-group">
+            <label>Добавленные атрибуты:</label>
+            <label ng-repeat="attribute in ctrl.attributes">{{attribute.name}}:{{attribute.type}}&nbsp;</label>
+        </div>
+        <div class="form-group">
+            <label>Название атрибута:</label>
+            <input class="form-control" ng-model="attributeName" />
+            <label>Тип атрибута:</label>
+            <select class="form-control" 
+                    ng-model="attributeType"
+                    ng-options="value.label as value.label for value in ctrl.types"></select>
+            <input type="button" value="Добавить" ng-click="ctrl.addAttribute(attributeName, attributeType)" />
+            <input type="button" value="Создать" ng-click="ctrl.createProductType()" />
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="collapse navbar-collapse" ng-controller="header as ctrl">
+            <ul class="nav nav-tabs">
+                <li ng-class="{ active: ctrl.isActive('/showProductTypes')}"><a href="#/showProductTypes">Все типы продуктов</a></li>
+                <li ng-class="{ active: ctrl.isActive('/createProductType')}"><a href="#/createProductType">Создать тип продукта</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <script src="index.js" data-main="js/main"></script>
+</body>
+</html>

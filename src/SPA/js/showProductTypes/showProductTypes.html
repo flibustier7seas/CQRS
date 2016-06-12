@@ -1,0 +1,19 @@
+﻿<table class="table">
+    <caption>Продукты</caption>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Attributes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="product in ctrl.products">
+            <td ng-bind="product.id"></td>
+            <td ng-bind="product.name"></td>
+            <td>
+                <label ng-repeat="attribute in product.attributes">{{attribute.name}}:{{attribute.type}}&nbsp;</label>                
+            </td>
+        </tr>
+    </tbody>
+</table>

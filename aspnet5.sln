@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75DB797C-F3C1-421C-9A3D-8CD2CA0968DF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aspnet5", "src\aspnet5\aspnet5.xproj", "{AD117600-C151-40A8-9E09-EBB8CAAFA7C5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain", "src\Domain\Domain.xproj", "{1ED7E113-8631-4B17-9398-2A714C23B6CF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EF", "src\EF\EF.xproj", "{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "mongo", "src\mongo\mongo.xproj", "{2BA45323-F03B-4FE9-9B51-CD50C9187A5D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SPA", "src\SPA\", "{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53770"
+		Debug.AspNetCompiler.PhysicalPath = "src\SPA\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53770\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53770"
+		Release.AspNetCompiler.PhysicalPath = "src\SPA\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53770\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53770"
+		SlnRelativePath = "src\SPA\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD117600-C151-40A8-9E09-EBB8CAAFA7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD117600-C151-40A8-9E09-EBB8CAAFA7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD117600-C151-40A8-9E09-EBB8CAAFA7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD117600-C151-40A8-9E09-EBB8CAAFA7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED7E113-8631-4B17-9398-2A714C23B6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED7E113-8631-4B17-9398-2A714C23B6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED7E113-8631-4B17-9398-2A714C23B6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED7E113-8631-4B17-9398-2A714C23B6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA45323-F03B-4FE9-9B51-CD50C9187A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA45323-F03B-4FE9-9B51-CD50C9187A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA45323-F03B-4FE9-9B51-CD50C9187A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA45323-F03B-4FE9-9B51-CD50C9187A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD117600-C151-40A8-9E09-EBB8CAAFA7C5} = {8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}
+		{1ED7E113-8631-4B17-9398-2A714C23B6CF} = {8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}
+		{1E981BA8-D1F1-4BE5-9459-BA0855EFFEFE} = {8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}
+		{2BA45323-F03B-4FE9-9B51-CD50C9187A5D} = {8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}
+		{F9CB63C4-A577-48C7-99C5-CDBBEF1A1C95} = {8C0BAD21-05B6-4E63-A4E3-FD2A6E02DE2C}
+	EndGlobalSection
+EndGlobal
